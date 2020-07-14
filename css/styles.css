@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+nav{
+    /* border: 2px solid blue; */
+    background-color: darkgray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a.logo{
+    padding-top: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: maroon;
+    font-size: 35px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0, 1.5);
+    /* box-shadow: 3px 3px 10px 4px rgb(116, 65, 65); */
+}
+ul.navlist{
+    /* border: 2px dotted green; */
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    list-style-type: none;
+}
+ul.navlist li{
+    float: left;
+}
+ul.navlist li a{
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+ul.navlist li a.active{
+    color: rgb(47, 86, 97);
+}
+
+ul.navlist li a:hover{
+    color: maroon;
+}
+/* ==========================================End Of NAv=================== */
+/* ===================================Header============== */
+.header{
+    /* border: 2px solid maroon; */
+    max-width: 1000px;
+    height: 400px;
+    margin: 60px auto;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ========================================CARD STYLES==================================== */
+.cardholder{
+    /* border: 2px solid rgb(209, 209, 20); */
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.card{
+    /* border: 2px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    font-family: Arial;
+    text-align: center;
+    margin: 30px 0;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+p.desc{
+    color: gray;
+    font-size: 15px;
+    margin: 15px 0;
+}
+.card img{
+    width: 100%;
+    height: 225px;
+}
+.card .content{
+    padding: 10px;
+}
+
+
+
+/* =========================ABOUT STYLES================================================ */
+.content-area{
+    /* border: 2px solid red; */
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.content-img{
+    /* border: 4px solid red; */
+    /* padding-top: 20px; */
+    /* margin-left: 55px; */
+    flex-wrap: wrap;
+    width: auto;
+    /* height: 400px; */
+}
+.content-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.content-img:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.descc{
+/* border: 2px solid red; */
+width: 30%;
+height: 50%; 
+text-align: center;
+margin: 20px 0;
+font-size: 35px;
+border-radius: 20px;
+color:black;
+}
+
+.descc button{
+    border: none;
+    outline: 0;
+    padding: 8px;
+    display: block;
+    background-color: grey;
+    width: 35%;
+    cursor: pointer;
+    font-size: 20px; 
+    border-radius: 20px;
+    margin-left: 30%;
+}
+.about h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: center;
+}
+/* ====================================SERVICEAS--====================== */
+.services{
+    border:2px solid blue;
+    display: inline-flex;
+}
+.ourservices{
+    border:2px solid black;
+    text-align: center;
+    width: 400px;
+}
+.services h2{
+    text-align: center;
+}
+.services p{
+    font-style: italic;
+    font-weight: bold;
+}
+.gallery{
+    border: 2px solid blue;
+    justify-content: space-between;
+}
+.gallery a{
+    border: 2px solid red;
+    display: inline-flex;
+    width: 350px;
+    height: 400px;
+    flex-wrap: wrap;
+    
+}
+.gallery a img{
+    width: 100%;
+    height: 100%;
+}
+.gallery h4{
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+}
+/* ================FOOTER======================== */
+footer{
+    /* border:2px solid blue; */
+    background-color: darkgray;
+    text-align: center;
+    height: 150px;
+    margin: 70px auto;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 70px auto; */
+}
